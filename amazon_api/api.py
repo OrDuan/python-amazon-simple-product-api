@@ -480,7 +480,7 @@ class LXMLWrapper(object):
 class AmazonSearch(object):
     """ Amazon Search.
 
-    A class providing an iterable over amazon search results.
+    A class providing an iterable over amazon_api search results.
     """
 
     def __init__(self, api, aws_associate_tag, **kwargs):
