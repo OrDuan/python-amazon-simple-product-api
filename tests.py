@@ -3,7 +3,7 @@ import unittest
 from nose.tools import assert_equals, assert_true, assert_false
 
 import datetime
-from amazon.api import (AmazonAPI,
+from amazonapi.api import (AmazonAPI,
                         CartException,
                         CartInfoMismatchException,
                         SearchException,
